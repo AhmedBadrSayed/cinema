@@ -12,14 +12,16 @@
         <activity
             android:name=".Screens.MovieDetails"
             android:label="@string/title_activity_movie_details"
-            android:parentActivityName=".Screens.MovieDetails">
+            android:parentActivityName=".Screens.MovieDetails"
+            android:configChanges="keyboardHidden|orientation|screenSize">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.google.project.Screens.MovieDetails" />
         </activity>
         <activity
             android:name=".Screens.Posters"
-            android:label="@string/title_activity_main22" >
+            android:label="@string/title_activity_main22" 
+            android:configChanges="keyboardHidden|orientation|screenSize">
         </activity>
         <activity
             android:name=".Screens.Setting"
