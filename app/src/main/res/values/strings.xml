@@ -9,7 +9,4 @@
     <string name="title_activity_main22">Posters</string>
     <string name="title_activity_setting">Setting</string>
     <string name="title_activity_splash">Splash</string>
-    <string name="popular">popularity.desc</string>
-    <string name="top_rated">vote_average.desc</string>
-    <string name="favourite">favourite</string>
 </resources>
